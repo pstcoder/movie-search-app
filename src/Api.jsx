@@ -8,7 +8,7 @@ function Api() {
     const [currentPage, setCurrentPage] = useState(1);
     const [query, setQuery] = useState();
     const [load, setLoad] = useState();
-    const [page, setPage] = useState([1, 2, 3, 4, 5])
+    const [page, setPage] = useState([1, 2, 3, 4])
 
     const APIURL =
         `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=${currentPage}`;
